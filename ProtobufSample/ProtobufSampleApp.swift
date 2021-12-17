@@ -11,6 +11,8 @@ import SwiftUI
 @main
 struct ProtobufSampleApp: App {
     var body: some Scene {
+        var message = Message()
+
         WindowGroup {
             ContentView()
         }
