@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		75C42073E988CBA4BD36DBAB /* ProtobufSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C42291D07384ECBD8AC0D0 /* ProtobufSampleApp.swift */; };
 		75C421A6EA3DCB6096A6DE6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C428D067A074D9B725E336 /* Assets.xcassets */; };
+		75C425AE5DF91B3C40CA0D81 /* Sample.proto in Sources */ = {isa = PBXBuildFile; fileRef = 75C4206E4DE46303156A6170 /* Sample.proto */; };
 		75C42ADEA63F4D82F2A03392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C42C541DBACC118DA56533 /* Preview Assets.xcassets */; };
 		75C42CB5981C07940D39913B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C42F8348F02F0253F542C1 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75C4206E4DE46303156A6170 /* Sample.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = Sample.proto; sourceTree = "<group>"; };
 		75C42291D07384ECBD8AC0D0 /* ProtobufSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufSampleApp.swift; sourceTree = "<group>"; };
 		75C428D067A074D9B725E336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75C429E28A8E1225FF946212 /* ProtobufSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtobufSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,7 @@
 				75C42159F33BAAAEA7B37750 /* Preview Content */,
 				75C42291D07384ECBD8AC0D0 /* ProtobufSampleApp.swift */,
 				75C42F8348F02F0253F542C1 /* ContentView.swift */,
+				75C4206E4DE46303156A6170 /* Sample.proto */,
 			);
 			path = ProtobufSample;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			files = (
 				75C42073E988CBA4BD36DBAB /* ProtobufSampleApp.swift in Sources */,
 				75C42CB5981C07940D39913B /* ContentView.swift in Sources */,
+				75C425AE5DF91B3C40CA0D81 /* Sample.proto in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
